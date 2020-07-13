@@ -1,0 +1,7 @@
+{
+  "name": "flipcard",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
