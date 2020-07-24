@@ -27,7 +27,7 @@ export class HomePage {
   constructor(public navCtrl: NavController, animationService: AnimationService)  {
     this.animator = animationService.builder();
   }
-
+//Here flipInX is not working
   animateElem() {
     this.animator.setType('flipInX').show(this.animcss.nativeElement);
   }
