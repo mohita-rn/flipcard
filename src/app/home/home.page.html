@@ -13,8 +13,26 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
+  <!-- <div id="container">
     <strong>Ready to create an app?</strong>
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  </div> -->
+     <!-- <div animates #animation="animates" text-center> 
+      <button ion-button (click)="animation.start({type: 'rubberBand', duration: '10000'})">Click me!</button>
+    </div> -->
+    <ion-buttons>
+      <ion-button color="tert" (click)="animateElem()">TAP</ion-button>
+    </ion-buttons>
+    <ion-card #animcss>
+      <ion-card-header>Animation with animate.css</ion-card-header>
+      <ion-card-content>WATCH ME FLIP!</ion-card-content>
+    </ion-card>
+ 
+      <!-- <button ion-button (click)="toggleVisible()">Toggle it!</button>
+      
+      <p [@myvisibility]="visibleState">
+        I am sometimes here and sometimes there.
+      </p> -->
+     
+    
 </ion-content>
